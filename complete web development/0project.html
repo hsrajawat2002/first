@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+ <html lang="en">
+     <head>
+         <title>The SOLAR SYSTEM</title>
+         
+         <style>
+             body{
+                 font-size: 130%;
+             }
+             .image{
+                 text-align: center;
+             }
+             #image{
+                 font-size: 70%;
+             }
+             code{
+                 background-color: pink;
+                 color: red;
+                 font-size: 110%;
+             }
+             table{
+                 border: 2px solid black;
+                 border-collapse: collapse;
+                padding: 10px;
+             }
+             td, th{
+                 border: 1px solid black;
+                 page-break-after: 9px;
+             }
+             h2{
+                 text-align: center;
+                 font-style: italic;
+                 text-decoration: underline;
+                 
+             }
+             #more{
+                 text-align: left;
+             }
+             #alpha{
+                 text-align: center;
+                 align-self: center;
+             }
+         </style>
+     </head>
+     <body>
+        <h1 style="text-align: center;font: bold;text-decoration:underline">THE SOLAR SYSTEM</h1>
+        <h2>What Is Solar System?</h2>
+        <p>There are many planetary systems like ours in the universe, with planets orbiting a host star. Our planetary system is named the <code>solar</code> 
+            system because our Sun is named Sol, after the Latin word for Sun, "solis," and anything related to the Sun we call "solar. For more info you can check the Nasa Website.
+            <a href="https://solarsystem.nasa.gov/solar-system/our-solar-system/overview/#:~:text=Our%20solar%20system%20consists%20of,of%20asteroids%2C%20comets%20and%20meteoroids.">NASA.com</a></p>
+        <div class="image">
+            <img src="https://cdn.mos.cms.futurecdn.net/VL7nBnqLZMhQt5VkPzzJVF-1200-80.jpg" alt="image of solar system" width="500px">
+        </div>
+        <p class="image" id="image" style="color: blueviolet;">This picture represents the solar system with The Sun along with 8 planets </p>
+        <h2 id="more">Some more Info.</h2>
+        <div class="planets">
+            <p>Name of all the <code>Planets</code> along with some of the natural satellite:</p>
+            <ol>
+                <li>Mercury</li>
+                <li>Venus</li>
+                <li>Earth</li>
+                <ul>
+                    <li>Moon</li>
+                </ul>
+                <li>Mars</li>
+                <ul>
+                    <li>Deimos</li>
+                    <li>Phobos</li>
+                </ul>
+                <li>Jupiter</li>
+                <ul><li>Genymede</li></ul>
+                <li>Saturn</li>
+                <ul><li>Titan</li></ul>
+                <li>Uranus</li>
+                <li>Neptune</li>
+            </ol>
+        </div>
+        <h2 class="table">Relative parameters wrt. Earth</h2>
+        <div id="alpha">
+            <p>For More Info ref:<a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/planet_table_ratio.html">Click here</a></p>
+            <table style="width: 280px;height: 200px;margin-left: 600px;">
+                <tr>
+                    <th>Name</th>
+                    <th>Gravity(Ge=1)</th>
+                    <th>Distance(from Sun)</th>
+                </tr>
+                <tr>
+                    <td>Mercury</td><td>0.378</td><td>0.39 AU</td>
+                </tr>
+                <tr>
+                    <td>Venus</td><td>0.907</td><td>0.723 AU</td>
+                </tr>
+                <tr>
+                    <td>Mars</td><td>0.166</td><td>1.524 AU</td>
+                </tr>
+            </table>
+        </div>
+        <div class="feedback" style="text-align: center;border: 2px solid black;margin-top: 10px;">
+            <p style="font-size: 110%;">FeedBack:</p>
+            <p>Name:<input type="text" placeholder="Enter your Name"> DOB:<input type="date"></p>
+            <p>Was my webpage good enough?</p>
+            <p>YES<input type="radio"></p>
+            <p>NO<input type="radio"></p>
+            <p>Create any random password:<input type="password"></p>
+            <p><input placeholder="Country" list="country">
+                <datalist id="country">
+                    <option value="AMERICA">
+                    <option value="INDIA">
+                </datalist>
+                <input placeholder="City" list="cities">
+                <datalist id="cities">
+                    <option value="Kanpur"></option>
+                    <option value="Lucknow"></option>
+                    <option value="Delhi"></option>
+                    <option value="Banglore"></option>
+                </datalist>
+            </p>
+            <p><form action="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj7nICRlLzuAhVfIbcAHUP9DmAQPAgI">
+                <input type="submit" placeholder="SUBMIT" ></form> </p>
+            <p style="text-align: center;font-size: 90%;">Once you submit you will be redirected to Google</p> 
+        </div>   
+     </body>
+ </html> 
