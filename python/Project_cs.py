@@ -9,7 +9,7 @@ for i in a:
         fullstop+=1
 print('Commas used in the string are: ',comma)
 print('fullstop used in the string are: ',fullstop)
-x=a.replace(',','')
+x=a.replace(',','')          #here we are using replace function toremove commas and fullstops
 x=x.replace('.','')
 b=x.split(' ')
 c=set(b)
@@ -49,7 +49,9 @@ if find=='Y':
     find1=input("Enter the word you want to find? \n")
     for i in range(0,len(b)):
         if b[i]==find1:
-            l_find.append(i+1)
-    print("The position of word is as follows: \n",l_find)
-
+            l_find.append(i+1) 
+    print("The position of word is as follows: \n",l_find) 
+'''We are giving position of word which is user friendly 
+ex. anand is a very good boy, then here position of 'is' will be 2 instead of giving position
+in technical terms like position will be 6, program should be simple for the user  '''
         
