@@ -1,5 +1,5 @@
 #Project_1
-a=input("ENTER TEXT: \n")
+a=input("ENTER TEXT: ")
 fullstop=0
 comma=0
 for i in a:
@@ -50,13 +50,17 @@ if find=='Y':
     for i in range(0,len(b)):
         if b[i]==find1:
             l_find.append(i+1) 
-    print("The position of word is as follows: \n",l_find) 
+    if len(l_find)>0:
+        print("The position of word is as follows: \n",l_find)
+    else:
+        print('The word does not exist in the text.') 
 '''We are giving position of word which is user friendly 
 ex. anand is a very good boy, then here position of 'is' will be 2 instead of giving position
 in technical terms like position will be 6, program should be simple for the user  '''
-reversing=input('Do ou want to see the reversed form of text? Y or N \n') #TASK7= reversing of string
+reversing=input('Do you want to see the reversed form of text? Y or N \n') #TASK7= reversing of string
 if reversing=='Y':
     reversing1=''
     for i in range(len(a)-1,-1,-1):
         reversing1=reversing1 + a[i]
     print('Reversed form of the Text is:\n',reversing1)
+
